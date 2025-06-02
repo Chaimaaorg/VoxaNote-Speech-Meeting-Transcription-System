@@ -6,7 +6,7 @@ import os
 # Get the root directory of the project 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 vocab_path = os.path.join(BASE_DIR, "../artifacts/vocab.json")
-vocab_path = os.path.join(BASE_DIR, "../artifacts/best_model.keras")
+model_path = os.path.join(BASE_DIR, "../artifacts/best_model.keras")
 
 # Load vocabulary
 with open(vocab_path, "r") as f:
