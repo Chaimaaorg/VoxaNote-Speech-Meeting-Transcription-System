@@ -1,12 +1,11 @@
 import json
 import tensorflow as tf
 from pathlib import Path
-import os 
 
 # Get the root directory of the project 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-vocab_path = os.path.join(BASE_DIR, "../artifacts/vocab.json")
-model_path = os.path.join(BASE_DIR, "../artifacts/best_model.keras")
+BASE_DIR = Path(__file__).resolve().parent
+vocab_path = BASE_DIR.parent / "artifacts" / "vocab.json"
+model_path = BASE_DIR.parent / "artifacts" / "best_model.keras"
 
 # Load vocabulary
 with open(vocab_path, "r") as f:
