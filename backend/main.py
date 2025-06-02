@@ -40,10 +40,7 @@ async def transcribe_audio(file: UploadFile = File(...)):
 
         # Use the formatter from the separate module
         formatted_text = format_transcription(raw_text)
-        print("\n===== Transcription Results =====")
-        print("Raw transcription:\n", raw_text)
-        print("Formatted transcription:\n", formatted_text)
-        print("=================================\n")
+        
         return JSONResponse(content={
             "raw_transcription": raw_text,
             "formatted_transcription": {
