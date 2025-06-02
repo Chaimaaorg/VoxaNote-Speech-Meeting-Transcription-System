@@ -86,7 +86,7 @@ def build_model(input_dim, output_dim, rnn_layers=5, rnn_units=128):
     return model
 
 # Load the pre-trained model
-model = tf.keras.models.load_model(model_path, custom_objects={"CTCLoss": CTCLoss})
+model = tf.keras.models.load_model(str(model_path), custom_objects={"CTCLoss": CTCLoss})
 
 # Set model to inference mode
 model.trainable = False
