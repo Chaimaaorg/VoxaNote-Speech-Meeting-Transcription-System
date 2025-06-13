@@ -9,7 +9,7 @@ It includes:
 * 📋 LLM-based output formatting
 * 🌐 React frontend + FastAPI backend
 
-![System Overview](./artifacts/demo.png)
+![System Overview](demo.png)
 
 **Kaggle Notebook (Model training)**:
 🔗 [End-to-End ASR with DeepSpeech2 & CTC Loss (TensorFlow)](https://www.kaggle.com/code/chaimaourgani/end-to-end-asr-with-deepspeech2-ctc-loss-tf)
