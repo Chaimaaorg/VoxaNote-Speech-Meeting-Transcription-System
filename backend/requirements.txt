@@ -28,6 +28,7 @@ h5py==3.13.0
 httpcore==1.0.9
 httpx==0.28.1
 httpx-sse==0.4.0
+huggingface_hub==0.33.0
 idna==3.10
 joblib==1.5.1
 jsonpatch==1.33
