@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VoxaNote-Speech-Meeting-Transcription-System/static/css/main.e6c13ad2.css",
-    "main.js": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/main.93329416.js",
+    "main.js": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/main.4c13e418.js",
     "static/js/453.8ab44547.chunk.js": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/453.8ab44547.chunk.js",
     "index.html": "/VoxaNote-Speech-Meeting-Transcription-System/index.html",
     "main.e6c13ad2.css.map": "/VoxaNote-Speech-Meeting-Transcription-System/static/css/main.e6c13ad2.css.map",
-    "main.93329416.js.map": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/main.93329416.js.map",
+    "main.4c13e418.js.map": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/main.4c13e418.js.map",
     "453.8ab44547.chunk.js.map": "/VoxaNote-Speech-Meeting-Transcription-System/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.93329416.js"
+    "static/js/main.4c13e418.js"
   ]
 }
