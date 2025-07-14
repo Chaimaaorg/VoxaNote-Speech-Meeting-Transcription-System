@@ -84,7 +84,7 @@ Upload a WAV audio file to get the transcription.
 #### Example with `curl`:
 
 ```bash
-curl -X POST "http://localhost:8000/transcribe/" \
+curl -X POST "https://voxanote-speech-meeting-transcription-system-production.up.railway.app/transcribe/" \
   -H "accept: application/json" \
   -H "Content-Type: multipart/form-data" \
   -F "file=@meeting.wav"

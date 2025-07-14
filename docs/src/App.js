@@ -9,7 +9,7 @@ const AudioTranscriptionApp = () => {
   const [isTranscribing, setIsTranscribing] = useState(false);
   const [error, setError] = useState('');
   const [recordingTime, setRecordingTime] = useState(0);
-  const [apiUrl, setApiUrl] = useState('http://localhost:8000');
+  const [apiUrl, setApiUrl] = useState('https://voxanote-speech-meeting-transcription-system-production.up.railway.app');
   
   const mediaRecorderRef = useRef(null);
   const audioRef = useRef(null);
@@ -166,8 +166,9 @@ const AudioTranscriptionApp = () => {
       setTranscriptionData(data);
 
     } catch (err) {
-      setError(`Transcription failed: ${err.message}`);
-    } finally {
+       setError("🚫 Sorry! The transcription backend is currently disabled for this public demo version. Please refer to the project documentation for more details.");
+    }
+ finally {
       setIsTranscribing(false);
     }
   };
@@ -313,7 +314,7 @@ const AudioTranscriptionApp = () => {
               placeholder="API URL (e.g., https://your-api.com)"
             />
             <button
-              onClick={() => setApiUrl('http://localhost:8000')}
+              onClick={() => setApiUrl('https://voxanote-speech-meeting-transcription-system-production.up.railway.app')}
               style={styles.resetButton}
             >
               Reset
